@@ -26,7 +26,8 @@ module RightHttpConnection #:nodoc:
     MAJOR = 1  unless defined?(MAJOR)
     MINOR = 5  unless defined?(MINOR)
     TINY  = 0  unless defined?(TINY)
+    TAPJOY = 1 unless defined?(TAPJOY)
 
-    STRING = [MAJOR, MINOR, TINY].join('.') unless defined?(STRING)
+    STRING = [MAJOR, MINOR, TINY, TAPJOY].join('.') unless defined?(STRING)
   end
 end
